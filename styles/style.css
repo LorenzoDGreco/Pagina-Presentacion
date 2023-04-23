@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+/* Nar Bar */
+.navbar-brand {
+    margin-left: 20rem;
+}
+
+
+.bar-link {
+    text-decoration: none;
+    color: white;
+    padding-right: 0.5rem;
+}
+
+/* Carousel */
+.carousel {
+    height: 19rem;
+}
+
+.carousel .carousel-inner {
+    height: 20rem;
+}
+
+/* Card */
+.container-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-card .box {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+.container-card .box:hover .imgBox {
+    transform: translate(-1.5rem, -1.5rem);
+}
+
+.container-card .box:hover .content {
+    box-shadow: 5px 5px 5px #999;
+    transform: translate(4rem, 4rem);
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    resize: both;
+    border-radius: 1rem;
+}
+
+.container-card .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    border-radius: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.container-card .box .content h2 {
+    display: block;
+    font-size: 2rem;
+    color: #111;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+.container-card .box .content span {
+    color: #555;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* Fin Card */
+
+/* Iconos */
+div i {
+    /* height: 1rem !important; */
+    text-decoration: none;
+    color: rgb(33,37,41);
+    padding-left: 2rem;
+    /* padding-right: 5rem; */
+    padding-top: 1.5rem;
+    padding-bottom: 10rem;
+}
+
+/* Cards de Lenguajes usados */
+
+div .card {
+    margin-bottom: 5rem;
+    width: 15rem;
+    height: 23rem;
+    transition: all 0.5s ease-in-out;
+}
+
+div div .card-img-top {
+    height: 12rem;
+}
+
+div .card:hover {
+    box-shadow: 5px 5px 5px #999;
+    transform: translate(-0.5rem, -0.5rem);
+    /* transform: translate(0, 0); */
+}
