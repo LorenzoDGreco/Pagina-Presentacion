@@ -1,24 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
 }
 
-/* Nar Bar */
+a {
+    color: inherit;
+}
+
+/* Nav Bar */
 .navbar-brand {
     margin-left: 10vw;
+    font-family: 'Dancing Script', 'Times New Roman', Times, serif, cursive;
+    font-size: 30px;
 }
 
-
-.bar-link {
+.nav-link {
     text-decoration: none;
     color: white;
-    padding-right: 0.5rem;
 }
 
 /* Carousel */
 .carousel {
     height: 19rem;
+    padding: 0 !important;
 }
 
 .carousel .carousel-inner {
@@ -32,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .container-card .box {
@@ -116,10 +124,22 @@ div i {
 
 /* Cards de Lenguajes usados */
 
+.conocimientos {
+    background-color: #066699 !important;
+}
+
+.text-title {
+    text-align: center;
+    line-height: 10rem;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
 div .card {
     margin-bottom: 5rem;
     width: 15rem;
     height: 23rem;
+    /* background-color: rgb(50, 114, 150); */
     transition: all 0.5s ease-in-out;
 }
 
@@ -128,7 +148,18 @@ div div .card-img-top {
 }
 
 div .card:hover {
-    box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px #02416d;
     transform: translate(-0.5rem, -0.5rem);
     /* transform: translate(0, 0); */
+}
+
+.formulario {
+    width: 50rem;
+    margin-bottom: 5rem;
+}
+
+.formulario .text-form {
+    text-align: center;
+    justify-content: center;
+    line-height: 5rem;
 }
