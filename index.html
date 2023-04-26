@@ -19,44 +19,41 @@
 </head>
 
 <body id="body">
-    <!-- <nav class="navbar sticky-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="#body">Lorenzo Greco</a>
-        <span class="navbar-text">
-            <a class="bar-link" href="">asd</a>
-            <a class="bar-link" href="">ASD</a>
-            <a class="bar-link" href="">asd</a>
-            <a class="bar-link" href="">ASD</a>
-        </span>
-    </nav> -->
 
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
-        <a href="#" class="navbar-brand">Lorenzo Greco</a>
-
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        
         <div class="container">
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
-                aria-expanded="false" aria-label="Barra de navegacion">
+            <a href="#" class="navbar-brand">Lorenzo Greco</a>
+
+            <button 
+             class="navbar-toggler"
+             data-bs-toggle="collapse" 
+             data-bs-target="#mainNav" 
+             aria-controls="mainNav"
+             aria-expanded="false" 
+             aria-label="Barra de navegacion">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="mainNav">
-                <div class="nav ms-auto">
+                <div class="nav ms-auto flex-column flex-md-row">
                     <a href="index.html" class="nav-link">Inicio</a>
                     <a href="" class="nav-link">Proyectos</a>
-                    <a href="" class="nav-link">Conocimientos</a>
-                    <a href="" class="nav-link">Comunicate</a>
+                    <a href="#gotoconocimientos" class="nav-link">Conocimientos</a>
+                    <a href="#gotocomunicate" class="nav-link">Comunicate</a>
                 </div>
             </div>
         </div>
 
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
@@ -70,20 +67,20 @@
                 <img class="d-block w-100 d-img" src="resources/4.webp" alt="Third slide">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
 
-    <section class="row">
-        <div class="container-card">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-auto container-card">
             <div class="box">
                 <div class="imgBox">
                     <img src="resources/5.jpg" alt="" />
@@ -95,20 +92,24 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <div class="row justify-content-center align-items-center">
-        <div class="col-sm-4 text-center">
+        <div class="col-auto">
             <a target="_blank" href="https://www.linkedin.com/in/lorenzo-greco-550999256/">
                 <i class="fa-brands fa-linkedin fa-5x"></i>
             </a>
+        </div>
+        <div class="col-auto">
             <a target="_blank" href="https://github.com/LorenzoDGreco">
                 <i class="fa-brands fa-github fa-5x"></i>
             </a>
+        </div>
+        <div class="col-auto">
             <a href="http://Curriculumxdxdxd/" target="_blank" rel="noopener noreferrer">
                 <i class="fa-sharp fa-solid fa-file fa-5x"></i>
             </a>
-        </div>
+        </div>       
     </div>
 
     <div style="height: 150px; overflow: hidden;">
@@ -118,11 +119,11 @@
         </svg>
     </div>
 
-    <div class="conocimientos">
+    <div class="conocimientos" id="gotoconocimientos">
         <h1 class="text-title">Mis conocimientos actuales</h1>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/html.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/css.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -142,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/js.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -152,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/python.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -162,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/java.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -172,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/sql.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -182,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/git.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -192,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-auto">
                     <div class="card">
                         <img src="resources/go.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -214,7 +215,7 @@
     </div>
 
     <div class="container justify-content-center formulario ms-auto">
-        <h1 class="col-auto text-form">Te gusto mi presentacion?<br> Puedes contactarme aquí</h1>
+        <h1 class="col-auto text-form" id="gotocomunicate">¿Te ha gustado mi presentación?<br> Puedes contactarme aquí</h1>
         <form class="row g-3">
             <div class="col-6">
                 <input type="text" class="form-control" id="input-name" placeholder="Nombre">
@@ -225,6 +226,9 @@
             <div class="col-12">
                 <textarea class="form-control" id="input-text-area" rows="3"
                     placeholder="Ingrese aquí lo que desea comunicarme"></textarea>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn mb-3">Enviar</button>
             </div>
         </form>
     </div>
