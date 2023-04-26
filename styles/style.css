@@ -121,6 +121,10 @@ a {
 
 /* Fin Card */
 
+.width-max {
+    width: 100vw;
+}
+
 /* Iconos */
 div i {
     /* height: 1rem !important; */
