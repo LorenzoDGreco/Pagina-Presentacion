@@ -11,6 +11,7 @@ a {
 }
 
 /* Nav Bar */
+
 .navbar-brand {
     font-family: 'Dancing Script', 'Times New Roman', Times, serif, cursive;
     font-size: 30px;
@@ -140,6 +141,7 @@ div i {
 
 .conocimientos {
     background-color: #066699 !important;
+    /* width: 100vw; */
 }
 
 .text-title {
@@ -186,4 +188,32 @@ div .btn {
 div .btn:hover {
     background-color: #46a3e6;
     color: white;
+    
+}
+
+footer {
+    padding: 1rem;
+    background-color: #46a3e6 !important;
+    color: white;
+    text-decoration: none;
+}
+
+footer .left {
+    display: inline;
+    text-decoration: none;
+    /* float: left; */
+}
+
+footer .right {
+    display: inline;
+    text-decoration: none;
+    float: right;
+}
+
+footer p {
+    margin: 0px;
+    display: inline;
+}
+footer .sep {
+    margin:0px 5px;
 }
