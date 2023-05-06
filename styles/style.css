@@ -44,6 +44,11 @@ a {
 } */
 
 /* Card */
+
+.card-me {
+    margin: 0;
+}
+
 .container-card {
     position: relative;
     display: flex;
@@ -71,17 +76,20 @@ a {
 
 .imgBox {
     position: absolute;
-    /* top: 0;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 100%; */
+    height: 100%;
     z-index: 2;
     transition: all 0.5s ease-in-out;
 }
 
 .imgBox img {
-    width: 20rem;
-    height: 20rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     resize: both;
     border-radius: 1rem;
@@ -134,7 +142,7 @@ div i {
     padding-left: 2rem;
     /* padding-right: 5rem; */
     padding-top: 1.5rem;
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
 }
 
 /* Cards de Lenguajes usados */
@@ -146,7 +154,8 @@ div i {
 
 .text-title {
     text-align: center;
-    line-height: 10rem;
+    /* line-height: 10rem; */
+    margin-bottom: 5rem;
     color:white;
     text-shadow: 1px 1px 2px black;
 }
@@ -170,7 +179,7 @@ div .card:hover {
 }
 
 .formulario {
-    width: 50rem;
+    /* width: 50rem; */
     margin-bottom: 5rem;
 }
 
@@ -195,7 +204,14 @@ footer {
     padding: 1rem;
     background-color: #46a3e6 !important;
     color: white;
+    text-decoration: none !important;
+}
+
+footer .conteiner div a {
     text-decoration: none;
+    color: white;
+    text-decoration-color: white;
+    
 }
 
 footer .left {
@@ -214,6 +230,74 @@ footer p {
     margin: 0px;
     display: inline;
 }
+
 footer .sep {
     margin:0px 5px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .navbar-brand {
+        font-family: 'Dancing Script', 'Times New Roman', Times, serif, cursive;
+        font-size: 20px;
+    }
+
+    .slide {
+        margin-top: 3.5rem;
+    }
+
+    .slide img {
+        height: 40vw;
+    }
+    
+    .container-card .box {
+        width: 25rem;
+        height: 20rem;
+        margin: 2rem;
+    }
+
+    .container-card .box:hover .imgBox {
+        transform: translate(0,5rem, -1.5rem);
+    }
+    
+    .container-card .box:hover .content {
+        box-shadow: 5px 5px 5px #999;
+        transform: translate(0, 2rem);
+    }
+
+    .container-card .box .content h2 {
+        font-size: 1.4rem;
+        font-weight: 0,5rem;
+        line-height: 1rem;
+        letter-spacing: 1px;
+    }
+    
+    .container-card .box .content span {
+        color: #555;
+        font-size: 1rem;
+        font-weight: 0,5rem;
+        letter-spacing: 1px;
+    }
+
+    .formulario .text-form {
+        font-size: 1,5rem;
+        line-height: 4rem;
+    }
+
+    footer {
+        padding-bottom: 2rem;
+    }
+
+    footer .left {
+        display: block;
+        text-decoration: none;
+        /* float: left; */
+        
+    }
+
+    footer .right {
+        float: left;
+        display: block;
+        text-decoration: none;
+    }
 }
