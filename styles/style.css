@@ -32,17 +32,6 @@ a {
     height: 33vh;
 }
 
-
-/* .carousel {
-    margin-top: 4rem;
-    height: 19rem;
-    padding: 0 !important;
-}
-
-.carousel .carousel-inner {
-    height: 20rem;
-} */
-
 /* Card */
 
 .card-me {
@@ -136,11 +125,9 @@ a {
 
 /* Iconos */
 div i {
-    /* height: 1rem !important; */
     text-decoration: none;
     color: rgb(33,37,41);
     padding-left: 2rem;
-    /* padding-right: 5rem; */
     padding-top: 1.5rem;
     padding-bottom: 3rem;
 }
@@ -149,12 +136,10 @@ div i {
 
 .conocimientos {
     background-color: #066699 !important;
-    /* width: 100vw; */
 }
 
 .text-title {
     text-align: center;
-    /* line-height: 10rem; */
     margin-bottom: 5rem;
     color:white;
     text-shadow: 1px 1px 2px black;
@@ -165,7 +150,6 @@ div .card {
     margin: 1rem;
     width: 15rem;
     height: 23rem;
-    /* background-color: rgb(50, 114, 150); */
     transition: all 0.5s ease-in-out;
 }
 
@@ -179,7 +163,6 @@ div .card:hover {
 }
 
 .formulario {
-    /* width: 50rem; */
     margin-bottom: 5rem;
 }
 
@@ -217,7 +200,6 @@ footer .conteiner div a {
 footer .left {
     display: inline;
     text-decoration: none;
-    /* float: left; */
 }
 
 footer .right {
@@ -291,7 +273,6 @@ footer .sep {
     footer .left {
         display: block;
         text-decoration: none;
-        /* float: left; */
         
     }
 
