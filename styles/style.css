@@ -120,8 +120,12 @@ div i {
     text-decoration: none;
     color: rgb(33,37,41);
     padding-left: 2rem;
-    padding-top: 1.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 3rem;
+}
+
+.width-max {
+    width: 99vw;
 }
 
 /* Cards de Lenguajes usados */
