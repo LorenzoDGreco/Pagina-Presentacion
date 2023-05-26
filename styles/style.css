@@ -34,10 +34,6 @@ a {
 
 /* Card */
 
-.card-me {
-    margin: 0;
-}
-
 .container-card {
     position: relative;
     display: flex;
@@ -118,10 +114,6 @@ a {
 }
 
 /* Fin Card */
-
-.width-max {
-    width: 100vw;
-}
 
 /* Iconos */
 div i {
